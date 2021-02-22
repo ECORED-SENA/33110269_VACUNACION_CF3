@@ -1,0 +1,163 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/introduccion.html"
+  },
+    
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "vacunacion",
+    "title": "1. Vacunación segura",
+    "breadcrumb": ["Inicio","Vacunación segura"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "vacunacion",
+        "title": "1.1 Lineamientos",
+        "anchor": "tema1_1"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "vacunacion",
+        "title": "1.2 Generalidades",
+        "anchor": "tema1_2"
+      } 
+    ]
+  },
+    
+  { 
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "aplicacion",
+    "title": "2. Vacunas, aplicación y contraindicaciones",
+    "breadcrumb": ["Inicio","Vacunas, aplicación y contraindicaciones"],
+    "path": "pages/2-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "aplicacion",
+        "title": "2.1 Técnica, administración y procedimiento",
+        "anchor": "tema2_1"
+      }, 
+      {
+        "icon": "fa fa-file-text",
+        "slug": "aplicacion",
+        "title": "2.2 Preparación de la vacuna",
+        "anchor": "tema2_2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "aplicacion",
+        "title": "2.3 Técnica para aplicar la vacuna",
+        "anchor": "tema2_3"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "aplicacion",
+        "title": "2.4 Observación post-vacunación",
+        "anchor": "tema2_4"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "aplicacion",
+        "title": "2.5 Contraindicaciones",
+        "anchor": "tema2_5"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "aplicacion",
+        "title": "2.6 Reacciones adversas esperadas",
+        "anchor": "tema2_6"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "aplicacion",
+        "title": "2.7 Advertencias y precauciones vacuna COVID19",
+        "anchor": "tema2_7"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "aplicacion",
+        "title": "2.8 Eventos atribuibles a la vacunación o inmunización: ESAVI",
+        "anchor": "tema2_8"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "aplicacion",
+        "title": "2.9 Avances científicos",
+        "anchor": "tema2_9"
+      }
+    ]     
+  },
+    
+  { 
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "sistemas",
+    "title": "3. Sistemas de información",
+    "breadcrumb": ["Inicio","Sistemas de información"],
+    "path": "pages/3-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "sistemas",
+        "title": "3.1 Generalidades",
+        "anchor": "tema3_1"
+      }, 
+      {
+        "icon": "fa fa-file-text",
+        "slug": "sistemas",
+        "title": "3.2. Plataforma tecnológica",
+        "anchor": "tema3_2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "sistemas",
+        "title": "3.3 PAI Web 2.0",
+        "anchor": "tema3_3"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "sistemas",
+        "title": "3.4 Carné de vacunación",
+        "anchor": "tema3_4"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "sistemas",
+        "title": "3.5 Calidad de la información",
+        "anchor": "tema3_5"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "sistemas",
+        "title": "3.6 Registro",
+        "anchor": "tema3_6"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "sistemas",
+        "title": "3.7 Gestión del dato",
+        "anchor": "tema3_7"
+      }
+    ]     
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  } 
+]

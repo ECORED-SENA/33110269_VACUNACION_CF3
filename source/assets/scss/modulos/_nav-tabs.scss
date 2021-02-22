@@ -1,0 +1,89 @@
+.nav-tab-ecored {
+    margin: auto;
+    .tab-content {
+        //border: 2px solid $brand-color-dark;
+        background: #F3F7FA;
+        border-top:none;
+        padding: 2rem;
+    }
+
+    .nav-tabs {
+        border-bottom: 1px solid #9092AE;
+        background: #aba6b8;
+    }
+
+    .nav-tabs .nav-item {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .nav-tabs .nav-link {
+        padding: 1rem 0;
+        border-bottom: 1px solid transparent;
+        border-left-width: 0;
+        border-right-width: 0;
+        border-top-width: 0;
+        padding-left: 24px;
+        padding-right: 24px;
+
+        @media screen and (max-width:$breakpoint-small) {
+            width: 100%;
+        }
+    }
+
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        //border-color: transparent;
+        background: #F3F7FA;
+        /*border-left: 2px solid $brand-color-dark;
+        border-top: 2px solid $brand-color-dark;
+        border-right: 2px solid $brand-color-dark;
+        color: $brand-color-dark;*/
+        border-bottom: 4px solid $brand-color-secondary;
+    }
+
+    .nav-tabs .nav-link:not(.active) {
+        //color: darken($brand-color-dark,10%);
+        margin: 0px;
+    }
+
+    .nav-link:not(.active):hover{
+        color: #4f4d5d !important;
+    }
+
+    .nav-link:not(.active) {
+        color: white !important;
+    }
+}
+
+.nav-tab-eco2 {
+    margin: auto;
+    .tab-content {
+        padding: 5px;
+    }
+
+    .nav-tabs {
+        border: none;
+    }
+
+    .nav-item {
+        margin: 5px !important;
+        padding: 5px !important;
+        color: #002B45 !important;
+        font-weight: bold;        
+        background-color: white;
+        border: 10px solid #7DD3E9;
+        border-radius: 100px;
+        transition: 0.2s;
+    }
+
+    .nav-link.active {
+        background-color: #F3F7FA;
+        border: 10px solid #abc1c7;
+    }
+
+    .nav-link:hover {
+        color: #ffe066 !important;
+        background-color: #412db3;
+        border: 10px solid #8175f0;        
+    }
+}

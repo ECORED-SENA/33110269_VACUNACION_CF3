@@ -1,0 +1,800 @@
+.container#tema2
+
+  .header-ecored
+    h1 2. Vacunas, aplicación y contraindicaciones
+
+  .jumbotron.bg-white
+    .row.mb-4
+      .col-12.col-md-6
+        h3.TextLH
+          | Científicos alrededor del mundo están desarrollando posibles 
+          span.TextC1 vacunas contra el COVID19.
+      .col
+        p Todas están diseñadas para enseñar al sistema inmunitario del organismo a reconocer y bloquear de manera segura el virus causante del COVID19 y tienen algunas características de acuerdo a la OMS, 2021:
+    
+    nav.nav-tab-ecored.wv2.my-4
+      #nav-tab.nav.nav-tabs.nav-fill(role='tablist')
+        a#nav-01-tab.nav-item.nav-link.active(data-toggle='tab', href='#nav-01', role='tab', aria-controls='nav-01', aria-selected='true') 
+          strong Con virus inactivados o atenuados
+        a#nav-02-tab.nav-item.nav-link(data-toggle='tab', href='#nav-02', role='tab', aria-controls='nav-02', aria-selected='false') 
+          strong Basadas en proteínas
+        a#nav-03-tab.nav-item.nav-link(data-toggle='tab', href='#nav-03', role='tab', aria-controls='nav-03', aria-selected='false') 
+          strong Con vectores virales
+        a#nav-04-tab.nav-item.nav-link(data-toggle='tab', href='#nav-04', role='tab', aria-controls='nav-04', aria-selected='false') 
+          strong Con ARN y ADN
+          
+      #nav-tabContent.tab-content
+        #nav-01.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='nav-01-tab')
+          p Vacunas con virus inactivados o atenuados: utilizan un virus previamente inactivado o atenuado, de modo que no provoca la enfermedad, pero aún así genera una respuesta inmunitaria.
+
+        #nav-02.tab-pane.fade(role='tabpanel', aria-labelledby='nav-02-tab')
+          p Vacunas basadas en proteínas: utilizan fragmentos inocuos de proteínas o estructuras proteínicas que imitan el virus causante de la COVID19, con el fin de generar una respuesta inmunitaria.
+
+        #nav-03.tab-pane.fade(role='tabpanel', aria-labelledby='nav-03-tab')
+          p Vacunas con vectores virales: utilizan un virus genéticamente modificado que no puede provocar la enfermedad, pero sí puede producir proteínas de coronavirus para generar una respuesta inmunitaria segura.
+        
+        #nav-04.tab-pane.fade(role='tabpanel', aria-labelledby='nav-04-tab')
+          p Vacunas con ARN y ADN: un enfoque pionero que utiliza ARN o ADN genéticamente modificados para generar una proteína que por sí sola desencadena una respuesta inmunitaria.
+    
+    .hr-divider.my-5
+
+    p.text-center.TextC2 
+      | Tipos de vacunas para la COVID-19
+      br
+      | #[strong Coronavirus SARS-CoV2]
+    
+    img.img-fluid.m-auto.d-block.wv85(src="assets/images/pages/tema-2/img01.svg")
+
+    h2.text-center.mt-5 Cuatro tipos de vacunas
+
+    .row.infoTabs.mb-3
+      .col-12.col-md-4.m-auto
+        h2.text-center Vector viral
+        p Inyecta un virus diferente y menos dañino que contiene los genes de la proteína espiga del coronavirus, para generar una respuesta inmunitaria.
+      .col.m-auto
+        table.tableInf
+          thead
+            tr
+              td.icon
+                img.img-fluid(src="assets/images/pages/tema-2/img02.svg")
+              td.cont 
+                p.m-0 Incapacidad de réplica: no se puede propagar.
+            tr
+              td.icon
+                img.img-fluid(src="assets/images/pages/tema-2/img03.svg")
+              td.cont 
+                p.m-0 Incapacidad de réplica: no se puede propagar.        
+
+    p Vacunas que usan este método: #[strong Oxford AstraZeneca, Gamaleya (SputnikV).]
+
+    .hr-divider.my-5
+
+    .row.infoTabs.mb-3
+      .col-12.col-md-4.m-auto
+        h2.text-center ARN/ADN
+        p Inyecta parte del código genético del virus en el cuerpo, para que produzca la proteína espiga del virus, generando así una respuesta inmunitaria.
+      .col.m-auto
+        table.tableInf
+          thead
+            tr
+              td.icon
+                img.img-fluid(src="assets/images/pages/tema-2/img04.svg")
+              td.cont 
+                p.m-0 ARNm (con modificaciones) o una codificación de proteínas de espiga por autoduplicación de ARN.
+            tr
+              td.icon
+                img.img-fluid(src="assets/images/pages/tema-2/img05.svg")
+              td.cont 
+                p.m-0 Plásmido de ADN.      
+
+    p Vacunas que usan este método: #[strong Pfizer, Moderna.]
+
+    .hr-divider.my-5
+
+    .row.infoTabs.mb-3
+      .col-12.col-md-4.m-auto
+        h2.text-center Virus desactivado
+        p Inyecta en el cuerpo una versión debilitada o desactivada del virus, el método tradicional de vacunación.
+      .col.m-auto
+        table.tableInf
+          thead
+            tr
+              td.icon
+                img.img-fluid(src="assets/images/pages/tema-2/img06.svg")
+              td.cont 
+                p.m-0 #[strong Virus desactivado:] no se puede reproducir, pero es capaz de generar una respuesta inmunitaria.
+            tr
+              td.icon
+                img.img-fluid(src="assets/images/pages/tema-2/img07.svg")
+              td.cont 
+                p.m-0 #[strong Vivo atenuado:] el virus sigue viable pero no puede causar enfermedad. Crece y se reproduce.
+
+    p Vacunas que usan este método: #[strong Sinovac/Butantan(CoronaVac), SinoPharm, Bharat Biotec (Covaxin).]
+
+    .hr-divider.my-5
+
+    .row.infoTabs.mb-3
+      .col-12.col-md-4.m-auto
+        h2.text-center En base a proteínas
+        p Inyecta en el cuerpo una versión debilitada o desactivada del virus, el método tradicional de vacunación.
+      .col.m-auto
+        table.tableInf
+          thead
+            tr
+              td.icon
+                img.img-fluid(src="assets/images/pages/tema-2/img08.svg")
+              td.cont 
+                p.m-0 #[strong Subunidades de proteína:] usan la proteína espiga o el RBD de la célula viral.
+            tr
+              td.icon
+                img.img-fluid(src="assets/images/pages/tema-2/img09.svg")
+              td.cont 
+                p.m-0 #[strong Partículas con forma viral:] imitan el virus pero no tienen material genético viral. 
+
+    p Vacunas que usan este método: #[strong Novavax, Sanofi.]
+
+    .bg-t2.mb-4
+      p.mb-0 El sistema inmunitario del cuerpo reacciona y produce anticuerpos. #[strong Si el paciente luego se contagia de coronavirus, los anticuerpos lo combaten.]
+
+    .hr-divider.my-5
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span A
+      .list__txt
+        p.mb-4 #[strong Vía, dosis y sitio de aplicación]
+
+    .wv85.m-auto
+      .header-arrow.my-5
+        h2.text-center Vacuna Pfizer
+
+      .row.text-center
+
+        .col-6.col-md-3
+          .bg-t3.mb-4
+            p.mb-0 N° dosis
+          p 
+            | 1ª Dosis
+            br
+            | (considérese día 0).
+          .hr-divider.my-5
+          p 
+            | 2ª dosis
+            br
+            | (21 días después de aplicada la primera dosis).
+
+        .col-6.col-md-2
+          .bg-t3.mb-4
+            p.mb-0 Dosis
+          p 0,3 ml
+
+        .col-6.col-md-3
+          .bg-t3.mb-4
+            p.mb-0 Vía de aplicación
+          p Intramuscular
+
+        .col-6.col-md-4
+          .bg-t3.mb-4
+            p.mb-0 Sitio de aplicación
+          p.text-left Músculo deltoides, idealmente del brazo izquierdo a menos que por alguna situación particular se requiera aplicar en el brazo derecho.
+    
+    p.my-4 De acuerdo al lineamiento técnico para la vacunación contra el COVID19 descrito por el Ministerio de Salud (2021) establece para la vacuna BNT162b2 Pfizer-BioNTech contra el COVID19.
+
+    .row.justify-content-center
+      .col-auto
+        a(href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/lineamientos-tecnicos-operativos-covid19-anexos.pdf" target="_blank").media-link
+          img(src="assets/images/icons/icon_media_web.svg", alt="").media-link-icon
+          .media-link-title
+            p.mb-0 #[strong Anexo 3.] Anexo técnico vacuna Pfizer.
+  
+  .jumbotron.bg-white#tema2_1
+    .header-ecored
+      .h2 2.1 Técnica, administración y procedimiento
+
+    .bg-t4
+      p La vial multidosis se almacena en ultracongelación y debe descongelarse antes de la dilución, así:
+      ul.list-p4
+        li La caja térmica contiene los paquetes de 195 frascos de vacuna congelados (975 dosis).
+        li Una vez abierta los viales congelados deben introducirse al refrigerador para #[strong descongelarlos a una temperatura de +2°C a +8°C], procedimiento que puede tardar 3 horas.
+        li Alternativamente, los viales congelados también se pueden descongelar durante 30 minutos a temperaturas de hasta +25°C #[strong para su uso inmediato].
+        li Una vez descongeladas, la vacuna sin diluir se puede almacenar #[strong hasta 5 días] (120 horas) entre +2°C a +8°C.
+    .header-arrow2.mb-6
+      h2.text-center Transporte de la vacuna Pfizer:
+    
+    img.img-fluid.m-auto.d-block.wv70(src="assets/images/pages/tema-2/img10.svg")
+
+    p.TextC2.mt-4 The Washington Post. Transporte de la vacuna Pfizer.
+
+    .row.justify-content-center.mt-5
+      .col-10.col-md-8
+          .card-media.bg-brand-color-secondary
+              .card-media__body                 
+                  figure.card__figure
+                    img(src="assets/images/pages/tema-2/img11.svg").img-fluid
+                  h2.card__copy.text-center.text-white ¡Marcar cada vial con la fecha y hora de descongelación!
+  
+  .jumbotron.bg-white#tema2_2
+    .header-ecored
+      .h2 2.2 Preparación de la vacuna
+    
+    p.mb-4 Antes de iniciar el proceso para la vacuna COVID19 es importante preguntar previamente a la persona:
+
+    .wv85.m-auto
+      .row
+        .col-12.col-md-5
+          .header-conv1
+            p.text-center ¿Tiene alguna alergia?
+
+      .row.justify-content-end
+        .col-12.col-md-7
+          .header-conv2
+            p.text-center ¿Tiene un trastorno hemorrágico o está tomando un anticoagulante?
+      
+      .row
+        .col-12.col-md-5
+          .header-conv1
+            p.text-center ¿Tiene fiebre?
+      
+      .row.justify-content-end
+        .col-12.col-md-7
+          .header-conv2
+            p.text-center ¿Está inmunocomprometido o está tomando un medicamento que afecta a su sistema inmunológico?
+
+      .row
+        .col-12.col-md-5
+          .header-conv1
+            p.text-center ¿Está amamantando?
+
+      .row.justify-content-end
+        .col-12.col-md-7
+          .header-conv2
+            p.text-center ¿Está embarazada o planea quedar embarazada?
+
+      .row
+        .col-12.col-md-5
+          .header-conv1
+            p.text-center ¿Ha recibido otra vacuna contra el COVID19?
+    
+    p.my-4 Durante la preparación es ideal tener en cuenta el Modelo Consentimiento Informado.
+
+    .row.justify-content-center.mb-4
+      .col-auto
+        a(href="http://minspsvm110/Ministerio/Institucional/Procesos%20y%20procedimientos/GPSF20.pdf" target="_blank").media-link
+          img(src="assets/images/icons/icon_media_video.svg", alt="").media-link-icon
+          .media-link-title
+            p.mb-0 #[strong Recurso.] Modelo Consentimiento Informado.
+
+    p Para cada vial de vacuna, se recomienda hacer la dilución, cuando se tengan 5 personas esperando turno para ser vacunadas, siguiendo los siguientes pasos:
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-auto.d-flex.justify-content-center.mb-4.mb-lg-0 
+        img.img-fluid(src="assets/images/pages/tema-2/img12.svg")
+      .col
+        table.mb-4
+          thead
+            tr
+              td
+                  img.img-fluid.img-min(src="assets/images/pages/tema-2/img13.svg")
+              td
+                  p.bg-t5 Realice #[strong higiene de manos.]
+            tr
+              td
+                  img.img-fluid.img-min(src="assets/images/pages/tema-2/img14.svg")
+              td
+                  p.bg-t5 Vigile que la vacuna se presente en forma blanquecina sin partículas visibles no blanquecinas. 
+            tr
+              td
+                  img.img-fluid.img-min(src="assets/images/pages/tema-2/img15.svg")
+              td
+                  p.bg-t5 Una vez el vial esté descongelado invierta suavemente lado a lado 10 veces antes de la dilución (como muestra la figura). #[strong No agitar ni sacudir.]
+
+    .bg-t2.mb-4
+      p.text-center.mb-0 #[strong Nota: ] Descarte la vacuna si hay partículas o decoloración.
+
+    .hr-divider.my-5
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span A
+      .list__txt
+        p.mb-4 #[strong Procedimiento para la dilución de la vacuna]
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-lg-7.mb-4.mb-lg-0 
+        p La vacuna descongelada debe diluirse en su vial original con #[strong 1,8 ml de solución inyectable de cloruro de sodio 9 mg/ml (0,9%)], utilizando una aguja de #[strong calibre 21 o más estrecha] y técnicas asépticas. Se administra con aguja #[strong 22g x 3/8 o 23g 3/8.]
+        p Una vez coloque todo el diluyente en el vial y antes de retirar la jeringa #[strong extraiga 1,8 ml de aire], para equilibrar la presión del frasco y evitar la aerosolización.
+        .row.justify-content-center
+          .col-10
+            .card-media.bg-brand-color-secondary
+                .card-media__body                 
+                    figure.card__figure
+                      img(src="assets/images/pages/tema-2/img11.svg").img-fluid
+                    h3.card__copy.text-white Advertencia: la solución de cloruro de sodio debe ser sin conservantes 9 mg/ml (0,9%) y es el único diluyente que debe usarse. Este diluyente no se incluye en la caja de la vacuna.
+      .col.d-flex.justify-content-center
+        img.img-fluid(src="assets/images/pages/tema-2/img16.svg")
+    
+    p Debe invertir suavemente la solución diluida 10 veces (como se muestra en la figura). #[strong No sacudir ni agitar]. La vacuna diluida debe presentarse como una solución blanquecina sin partículas visibles. Desechar la vacuna diluida si se presentan partículas o decoloración.
+
+    p Los viales diluidos deben #[strong marcarse con la fecha y la hora de dilución] y almacenarse entre +2°C a +8°C.
+    
+    p Usar inmediatamente y dentro de las 6 horas posteriores a la dilución.
+
+    .row.justify-content-end.my-4
+      .col-12.col-md-4.d-flex.justify-content-center
+        img.img-fluid(src="assets/images/pages/tema-2/img17.svg")
+      .col-12.col-md-4
+        .header-conv3
+          p.text-center ¿Está inmunocomprometido o está tomando un medicamento que afecta a su sistema inmunológico?
+    
+    .hr-divider2.my-5
+
+    p #[strong Recuerde:] ningún vial podrá usarse 6 horas después a la hora exacta en que se hizo la dilución.
+
+  .jumbotron.bg-white#tema2_3
+    .header-ecored
+      .h2 2.3 Técnica para aplicar la vacuna
+    
+    img.img-fluid.m-auto.d-block.wv70(src="assets/images/pages/tema-2/img18.svg")
+
+    .hr-divider.my-5
+
+    nav.nav-tab-eco2.mb-4
+      #nav-tabContent.tab-content
+        #nav-c01.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='nav-c01-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 01
+            .list__txt
+              p.my-0 Descubra el sitio de aplicación. #[strong Músculo deltoides.]
+        #nav-c02.tab-pane.fade(role='tabpanel' aria-labelledby='nav-c02-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 02
+            .list__txt
+              p.my-0 Idealmente del brazo izquierdo a menos que por alguna situación particular se requiera aplicar en el brazo derecho.
+        #nav-c03.tab-pane.fade(role='tabpanel' aria-labelledby='nav-c03-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 03
+            .list__txt
+              p.my-0 Realice limpieza en forma circular del centro a la periferia con una torunda de algodón previamente humedecida sin pasar por el mismo sitio.
+        #nav-c04.tab-pane.fade(role='tabpanel' aria-labelledby='nav-c04-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 04
+            .list__txt
+              p.my-0 Retire la funda protectora o capuchón de la aguja para aplicar la vacuna.
+        #nav-c05.tab-pane.fade(role='tabpanel' aria-labelledby='nav-c05-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 05
+            .list__txt
+              p.my-0 Con una mano estire la piel con los dedos pulgar e índice.
+        #nav-c06.tab-pane.fade(role='tabpanel' aria-labelledby='nav-c06-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 06
+            .list__txt
+              p.my-0 Con la otra mano tome la jeringa, con el bisel de la aguja hacia arriba en un ángulo de 90° sobre el plano de la piel.
+        #nav-c07.tab-pane.fade(role='tabpanel' aria-labelledby='nav-c07-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 07
+            .list__txt
+              p.my-0 Introduzca la aguja por vía intramuscular.
+        #nav-c08.tab-pane.fade(role='tabpanel' aria-labelledby='nav-c08-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 08
+            .list__txt
+              p.my-0 Presione el émbolo para que penetre la vacuna.
+        #nav-c09.tab-pane.fade(role='tabpanel' aria-labelledby='nav-c09-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 09
+            .list__txt
+              p.my-0 Fije ligeramente la piel con una torunda seca, cerca del sitio donde está inserta la aguja y retire la jeringa inmediatamente después de haber introducido el líquido.
+        #nav-c10.tab-pane.fade(role='tabpanel' aria-labelledby='nav-c10-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 10
+            .list__txt
+              p.my-0 Estire la piel para perder la luz del orificio que dejó la aguja.
+        #nav-c11.tab-pane.fade(role='tabpanel' aria-labelledby='nav-c11-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 11
+            .list__txt
+              p.my-0 Presione por 30 a 60 segundos con la torunda, sin dar masaje.
+        #nav-c12.tab-pane.fade(role='tabpanel' aria-labelledby='nav-c12-tab')
+          .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 12
+            .list__txt
+              p.my-0 Realice la higiene de manos.
+
+      #nav-tab.nav.nav-tabs.nav-fill(role='tablist')
+        a#nav-c01-tab.nav-item.nav-link.active(data-toggle='tab' href='#nav-c01' role='tab' aria-controls='nav-c01' aria-selected='true') 01
+        a#nav-c02-tab.nav-item.nav-link(data-toggle='tab' href='#nav-c02' role='tab' aria-controls='nav-c02' aria-selected='false') 02
+        a#nav-c03-tab.nav-item.nav-link(data-toggle='tab' href='#nav-c03' role='tab' aria-controls='nav-c03' aria-selected='false') 03
+        a#nav-c04-tab.nav-item.nav-link(data-toggle='tab' href='#nav-c04' role='tab' aria-controls='nav-c04' aria-selected='false') 04
+        a#nav-c05-tab.nav-item.nav-link(data-toggle='tab' href='#nav-c05' role='tab' aria-controls='nav-c05' aria-selected='false') 05
+        a#nav-c06-tab.nav-item.nav-link(data-toggle='tab' href='#nav-c06' role='tab' aria-controls='nav-c06' aria-selected='false') 06
+        a#nav-c07-tab.nav-item.nav-link(data-toggle='tab' href='#nav-c07' role='tab' aria-controls='nav-c07' aria-selected='false') 07
+        a#nav-c08-tab.nav-item.nav-link(data-toggle='tab' href='#nav-c08' role='tab' aria-controls='nav-c08' aria-selected='false') 08
+        a#nav-c09-tab.nav-item.nav-link(data-toggle='tab' href='#nav-c09' role='tab' aria-controls='nav-c09' aria-selected='false') 09
+        a#nav-c10-tab.nav-item.nav-link(data-toggle='tab' href='#nav-c10' role='tab' aria-controls='nav-c10' aria-selected='false') 10
+        a#nav-c11-tab.nav-item.nav-link(data-toggle='tab' href='#nav-c11' role='tab' aria-controls='nav-c11' aria-selected='false') 11
+        a#nav-c12-tab.nav-item.nav-link(data-toggle='tab' href='#nav-c12' role='tab' aria-controls='nav-c12' aria-selected='false') 12
+
+  .jumbotron.bg-white#tema2_4
+    .header-ecored
+      .h2 2.4 Observación post-vacunación
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-md-5.d-flex.justify-content-center.mb-4.mb-md-0
+        img.img-fluid(src="assets/images/pages/tema-2/img19.svg")
+      .col
+        h3.TextLH          
+          span.TextC1 No se han presentado reacciones 
+          | alérgicas graves según los estudios clínicos de la vacuna contra COVID19  
+        p Sin embargo, se debe observar a la persona durante 30 minutos, después de aplicada la vacuna. Al terminar la estancia de 30 minutos en el área de observación, entregar el carné de vacunación indicando la fecha en que se aplicó la primera dosis de la vacuna y fecha en que deberá acudir para la segunda dosis #[strong (21 días después Pfizer) si lo requiere].
+  
+  .jumbotron.bg-white#tema2_5
+    .header-ecored
+      .h2 2.5 Contraindicaciones
+
+    p Se puede presentar hipersensibilidad al principio activo o a alguno de los excipientes:
+
+    ul.list-p4
+      li ALC-0315 = (4-hidroxibutil) azanediil) bis (hexano-6,1-diil) bis 2- hexildecanoato).
+      li ALC-0159 = 2 – [(polietilenglicol) -2000] – N, N- ditetradecilacetamida.
+      li 1,2-Distearoil-sn-glicero-3-fosfocolina.
+      li Colesterol.
+      li Cloruro de potasio.
+      li Dihidrogenofosfato de potasio.
+      li Cloruro de sodio.
+      li Hidrogenofosfato de disodio dihidrato.
+      li Sacarosa.
+
+    p.mb-4 Es importante tener en cuenta que la vacuna está contraindicada en personas que hayan tenido COVID19 y aun no se recuperen o que presenten:
+
+    .wv85.m-auto
+      .row
+        .col-12.col-md-6
+          table.mb-4
+            thead
+              tr
+                td
+                  img.img-fluid.img-min(src="assets/images/pages/tema-2/img20.svg")
+                td
+                  p.bg-t5 #[strong Inmunosupresión] por cualquier causa (incluye VIH).
+        .col-12.col-md-6
+          table.mb-4
+            thead
+              tr
+                td
+                  img.img-fluid.img-min(src="assets/images/pages/tema-2/img21.svg")
+                td
+                  p.bg-t5 #[strong Antecedente de alergia] grave (reacción anafiláctica).
+      
+      .row
+        .col-12.col-md-6
+          table.mb-4
+            thead
+              tr
+                td
+                  img.img-fluid.img-min(src="assets/images/pages/tema-2/img22.svg")
+                td.w100
+                  p.bg-t5 #[strong Con fiebre mayor a 38ºC.]
+        .col-12.col-md-6
+          table.mb-4
+            thead
+              tr
+                td
+                  img.img-fluid.img-min(src="assets/images/pages/tema-2/img23.svg")
+                td
+                  p.bg-t5 Recibido la #[strong vacuna de influenza] (tiempo menor de 30 días).
+      
+      table.mb-4
+        thead
+          tr
+            td
+              img.img-fluid.img-min(src="assets/images/pages/tema-2/img23.svg")
+            td
+              p.bg-t5 Haya #[strong recibido transfusión sanguínea], aplicación de hemoderivados conteniendo anticuerpos, tratamiento con plasma o anticuerpos monoclonales contra COVID19 en los 3 meses previos al día de la vacunación. 
+
+    .row.justify-content-center.mt-5
+      .col-10.col-md-8
+          .card-media.bg-brand-color-secondary
+              .card-media__body                 
+                  figure.card__figure
+                    img(src="assets/images/pages/tema-2/img11.svg").img-fluid
+                  h3.card__copy.text-center.text-white La vacuna de Pfizer-BioNTech, no puede administrarse simultáneamente con otras vacunas.
+        
+  .jumbotron.bg-white#tema2_6
+    .header-ecored
+      .h2 2.6 Reacciones adversas esperadas
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-md-6
+        p Según el resumen del perfil de los estudios de seguridad de la vacuna #[strong BNT162b2 de Pfizer], mostraron que los eventos más frecuentes pueden ser: 
+        ul.list-p1
+          li Dolor en el lugar de la inyección.
+          li (80% de los vacunados).
+          li Fatiga (60%).
+          li Dolor de cabeza (50%).
+          li Mialgia (30%).
+          li Escalofríos (30%).
+          li Fiebre (temperatura <38.5°C) (10%).
+        p Todos con un nivel de #[strong intensidad de leve a moderada] y una resolución entre 3 a 5 días.        
+      .col
+        img.img-fluid(src="assets/images/pages/tema-2/img25.svg")
+  
+  .jumbotron.bg-white#tema2_7
+    .header-ecored
+      .h2 2.7 Advertencias y precauciones vacuna COVID19
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span A
+      .list__txt
+        p.mb-0 #[strong Antes de vacunar leer cuidadosamente el inserto o indicación] para prescribir que trae adjunto cada una de las vacunas.
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span B
+      .list__txt
+        p.mb-0 Como con todas #[strong las vacunas inyectables, el tratamiento médico y la supervisión adecuada siempre deben estar fácilmente disponibles en caso de un evento anafiláctico] poco común después de la administración de la vacuna.
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span C
+      .list__txt
+        p.mb-0 La administración de la vacuna BNT162b2 debe posponerse en personas que padecen #[strong enfermedad febril aguda grave.]
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span D
+      .list__txt
+        p.mb-0 #[strong Las personas que reciben terapia anticoagulante o aquellas con un trastorno hemorrágico] que contraindicaría la inyección intramuscular, no deben recibir la vacuna a menos que el beneficio potencial supere claramente el riesgo.
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span E
+      .list__txt
+        p.mb-0 #[strong Las personas inmunodeprimidas,] incluidas las personas que reciben terapia inmunosupresora, pueden tener una respuesta inmunitaria disminuida a la vacuna. No hay datos disponibles sobre el uso concomitante con inmunosupresores.
+    .hr-divider.my-3
+    
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span F
+      .list__txt
+        p.mb-0 Como con cualquier vacuna, la vacunación con #[strongla vacuna BNT162b2 puede no proteger a todos los receptores de la vacuna.]
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span G
+      .list__txt
+        p.mb-0 No se dispone de datos sobre el uso de la vacuna de BNT162b2 en personas que hayan recibido previamente una serie de vacunas completa o parcial con otra vacuna de COVID19.
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span H
+      .list__txt
+        p.mb-0 Información sobre el excipiente: #[strong la esta vacuna contiene potasio], menos de 1 mmol (39 mg) por dosis, es decir, esencialmente “libre de potasio”. Esta vacuna contiene menos de 1 mmol de sodio (23 mg) por dosis, es decir, esencialmente “libre de sodio”.
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span I
+      .list__txt
+        p.mb-0 No se sabe si la vacuna BNT162b2 tiene un impacto en la #[strong fertilidad.]
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span J
+      .list__txt
+        p.mb-0 No hay datos disponibles sobre la #[strong toxicidad reproductiva en animales.]
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span K
+      .list__txt
+        p.mb-0 #[strong No se recomienda la vacuna durante el embarazo.] Descartar que estén en embarazo en mujeres en edad fértil, antes de la vacunación.
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span L
+      .list__txt
+        p.mb-0 Advertir a mujeres en edad fértil que #[strong eviten el embarazo durante al menos 2 meses] después de la segunda dosis.
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span M
+      .list__txt
+        p.mb-0 Se desconoce si la vacuna se excreta en la leche materna. #[strong No se debe utilizar la vacuna durante la lactancia.]
+    .hr-divider.my-3
+
+    .list
+      .list__item
+        .list__item__bulletNumber
+          span N
+      .list__txt
+        p.mb-0 No se puede excluir un riesgo para los #[strong recién nacidos/lactantes.]
+    .hr-divider.my-3
+  
+  .jumbotron.bg-white#tema2_8
+    .header-ecored
+      .h2 2.8 Eventos atribuibles a la vacunación o inmunización: ESAVI
+
+    p Se dice que es un ESAVI, cuando un paciente presenta cualquier trastorno, síndrome, signo o síntoma después de la administración de una vacuna y que el público, los padres, el paciente o los trabajadores de la salud consideren que está relacionado con la vacunación, pudiendo estar o no relacionado con la vacuna o el proceso de inmunización.
+
+    .row.align-items-center
+      .col-12.col-md-6
+        .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 01
+            .list__txt
+              p.my-0 Abscesos en el sitio de administración.
+      .col-12.col-md-6
+        .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 02
+            .list__txt
+              p.my-0 Eventos que requieren hospitalización.
+    
+    .row.align-items-center
+      .col-12.col-md-6
+        .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 03
+            .list__txt
+              p.my-0 Eventos que ponen en riesgo la vida.
+      .col-12.col-md-6
+        .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 04
+            .list__txt
+              p.my-0 Errores relacionados con el programa de vacunación nacional.
+    
+    .row.align-items-center
+      .col-12.col-md-6
+        .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 05
+            .list__txt
+              p.my-0 Eventos que causan discapacidades.
+      .col-12.col-md-6
+        .list.bord1.mb-3
+            .list__item
+              .list__item__bulletNumber3
+                span 06
+            .list__txt
+              p.my-0 Eventos que estén por encima de la incidencia esperada en un conglomerado de personas.
+
+    .list.bord1.mb-3
+        .list__item
+          .list__item__bulletNumber3
+            span 07
+        .list__txt
+          p.my-0 Cualquier muerte que ocurra dentro de las cuatro semanas siguientes a la administración de una vacuna y se relacione con el proceso de vacunación o inmunización.
+    
+    .hr-divider.my-5
+
+    p Para efectos de vigilancia epidemiológica se deben tener en cuenta las definiciones del caso:
+
+    nav.nav-tab-ecored.wv2.my-4
+      #nav-tab.nav.nav-tabs.nav-fill(role='tablist')
+        a#nav-d01-tab.nav-item.nav-link.active(data-toggle='tab', href='#nav-d01', role='tab', aria-controls='nav-d01', aria-selected='true') 
+          strong Caso sospechoso
+        a#nav-d02-tab.nav-item.nav-link(data-toggle='tab', href='#nav-d02', role='tab', aria-controls='nav-c02', aria-selected='false') 
+          strong Relacionado con la vacuna
+        a#nav-d03-tab.nav-item.nav-link(data-toggle='tab', href='#nav-d03', role='tab', aria-controls='nav-d03', aria-selected='false') 
+          strong Relacionado con el programa
+        a#nav-d04-tab.nav-item.nav-link(data-toggle='tab', href='#nav-d04', role='tab', aria-controls='nav-d04', aria-selected='false') 
+          strong Caso coincidente
+          
+      #nav-tabContent.tab-content
+        #nav-d01.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='nav-d01-tab')
+          p Paciente que presenta cualquier trastorno, síndrome, signo o síntoma después de la administración de una vacuna y que el público, los padres, el paciente o los trabajadores de la salud consideren que está relacionado con la vacunación, pudiendo estar o no relacionado con la vacuna o el proceso de inmunización.
+
+        #nav-d02.tab-pane.fade(role='tabpanel', aria-labelledby='nav-d02-tab')
+          p Caso sospechoso en el cual el evento ha sido descrito como una reacción después de la administración de la vacuna debido a sus propiedades o componentes cumpliendo con los criterios de causalidad.
+
+        #nav-d03.tab-pane.fade(role='tabpanel', aria-labelledby='nav-d03-tab')
+          p Caso sospechoso en el cual se logra identificar uno o varios errores relacionados con el almacenamiento, preparación, manejo y administración de la vacuna (ver Manual técnico administrativo del PAI, tomo 6, pág. 28 a 36).
+        
+        #nav-d04.tab-pane.fade(role='tabpanel', aria-labelledby='nav-d04-tab')
+          p Caso en el cual el evento coincide con la vacunación o el proceso de inmunización y pudo haberse producido incluso si la persona no hubiese recibido la vacuna.
+    
+    p Para reducir el riesgo que pueda producirse en el programa nacional de vacunación afectando el logro de coberturas útiles de vacunación, es obligatorio manejar y dar respuesta efectiva y oportuna ante la presencia de un ESAVI grave, siguiendo el protocolo establecido para ello. 
+
+    p Puede revisar el protocolo a los eventos adversos de los lineamientos técnicos y operativos para la vacunación de COVID19:
+
+    .row.mb-4
+      .col-12.col-md-6.mb-4.mb-md-0
+        a(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=930&pg=27" target="_blank").media-link
+          img(src="assets/images/icons/icon_media_web.svg", alt="").media-link-icon
+          .media-link-title
+            p.mb-0 #[strong Anexo 4.] ESAVI y el Manual Técnico Administrativo del PAI.
+      .col-12.col-md-6
+        a(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=930&pg=27" target="_blank").media-link
+          img(src="assets/images/icons/icon_media_web.svg", alt="").media-link-icon
+          .media-link-title
+            p.mb-0 #[strong Anexo 5.] Manual técnico administrativo PAI. Tomo 6.
+    
+  .jumbotron.bg-white#tema2_9
+    .header-ecored
+      .h2 2.9 Avances científicos
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-md-5.d-flex.justify-content-center.mb-4.mb-md-0
+        img.img-fluid(src="assets/images/pages/tema-2/img26.svg")
+      .col
+        ul.list-p4.mb-3
+          li Organización Mundial de la Salud:
+        .mb-3
+          a.m-auto(href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/covid-19-vaccines" target="_blank").media-link
+            img(src="assets/images/icons/icon_media_web.svg", alt="").media-link-icon
+            .media-link-title
+              p.mb-0 #[strong OMS]
+        
+        ul.list-p4.mb-3
+          li Centros para el Control y Prevención de Enfermedades:
+        .mb-3
+          a.m-auto(href="https://www.cdc.gov/vaccines/covid-19/toolkits/index.html" target="_blank").media-link
+            img(src="assets/images/icons/icon_media_web.svg", alt="").media-link-icon
+            .media-link-title
+              p.mb-0 #[strong Centers for Desease Control and Prevention]
+        
+        ul.list-p4
+          li  Centro de Recursos Coronavirus - Universidad Johns Hopkins:
+        a.m-auto(href="https://coronavirus.jhu.edu/" target="_blank").media-link
+          img(src="assets/images/icons/icon_media_web.svg", alt="").media-link-icon
+          .media-link-title
+            p.mb-0 #[strong Coronavirus Resource Center]
+          
+          
