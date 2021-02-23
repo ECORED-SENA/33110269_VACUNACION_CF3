@@ -302,7 +302,7 @@ ol.lista > li.mas:before {
 .list-p3 {
     & li {
         list-style: none;
-        margin-bottom: 14px;
+        margin-bottom: 5px;
     }
     & li::before {
         content: "\00BB";
@@ -314,7 +314,15 @@ ol.lista > li.mas:before {
         }    
 }
 
+.wv55{
+    width: 50%;
+}
+
 .wv70{
+    width: 60%;
+}
+
+.wv70i{
     width: 70%;
 }
 
@@ -322,8 +330,29 @@ ol.lista > li.mas:before {
     width: 85%;
 }
 
-@media only screen and (max-width: 720px) {
-    .wv70,.wv85 {
+@media only screen and (max-width: 1200px) {
+    .wv55 {
+        width: 60%;
+    }
+    .wv70{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .wv55 {
+        width: 83%;
+    }
+    .wv70 {
+        width: 90%;
+    }
+    .wv70i {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .wv70, .wv85, .wv55 {
         width: 100%;
     }
 }
@@ -422,15 +451,32 @@ ol.lista > li.mas:before {
 }
 
 .img-min{
-    min-width: 70px;
+    min-width: 54px;
     margin: 5px 0;
 }
 
 .bg-t5{
     background-color: #F2F2F2;
     padding: 18px 18px 18px 30px;
-    margin: 5px 0 5px -6px;
+    margin: 5px 0 5px -15px;
     border-radius: 6px;
+}
+
+.img-min2{
+    max-width: 60px;
+    margin: 5px 0;
+}
+
+.bg-t52{
+    background-color: #F2F2F2;
+    padding: 18px 18px 18px 50px;
+    margin: 5px 0 5px -30px;
+    border-radius: 6px;
+}
+
+.bg-t53{
+    padding: 18px 18px 18px 30px;
+    margin: 5px 0 5px -15px;
 }
 
 .w100 {

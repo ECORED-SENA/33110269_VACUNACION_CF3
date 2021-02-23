@@ -84,13 +84,13 @@
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     border-style: solid;
-    border-width: 25px 25px 0px 25px;
-    border-color: #FFCD0D transparent transparent transparent;
+    border-width: 20px;
+    border-color: transparent #FFCD0D transparent transparent;
     position: absolute;
-    transform: rotate(90deg);
-    bottom: -13px;
-    right: -13px;
-    z-index: 20;    
+    transform: translateY(50%);
+    bottom: 0px;
+    right: 0px;
+    z-index: 20; 
 }
 
 .header-conv2{
@@ -116,13 +116,13 @@
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     border-style: solid;
-    border-width: 25px 25px 0px 25px;
-    border-color: #7DD3E9  transparent transparent transparent;
+    border-width: 20px;
+    border-color: transparent transparent transparent #7DD3E9;
     position: absolute;
-    transform: rotate(-90deg);
-    bottom: -13px;
-    left: -12px;
-    z-index: 20;    
+    transform: translateY(50%);
+    bottom: 0px;
+    left: 0px;
+    z-index: 20;   
 }
 
 .header-conv3{
